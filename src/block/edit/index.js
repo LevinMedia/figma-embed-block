@@ -19,11 +19,11 @@ export const Edit = ( props ) => {
 		<div className={ className }>
 			<Placeholder
 				icon={ <FigmaIcon className="logo" /> }
-				label={ __( 'Figma Embed' ) }
-				instructions={ __( 'Embed a figma frame into your post or page' ) }
+				label={ __( 'Figma' ) }
+				instructions={ __( 'Embed a figma frame or page' ) }
 			>
 				<TextControl
-					label={ __( 'Paste link here:' ) }
+					label={ __( 'Link URL:' ) }
 					value={ value }
 					onChange={ handleURLChange }
 				/>

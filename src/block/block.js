@@ -19,6 +19,7 @@ const { useState, Fragment } = wp.element;
 
 registerBlockType( 'cgb/block-figma-embed-block', {
 	title: __( 'Figma' ),
+	description: __( 'Embed a Figma frame or page.' ),
 	icon: <FigmaIcon />,
 	category: 'embed',
 	keywords: [
