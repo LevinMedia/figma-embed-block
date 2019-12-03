@@ -20,7 +20,7 @@ export const Edit = ( props ) => {
 			<Placeholder
 				icon={ <FigmaIcon className="logo" /> }
 				label={ __( 'Figma' ) }
-				instructions={ __( 'Embed a figma frame or page' ) }
+				instructions={ __( 'Embed a frame or page' ) }
 			>
 				<TextControl
 					label={ __( 'Link URL:' ) }
