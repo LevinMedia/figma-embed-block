@@ -5,6 +5,7 @@
 - Pages
 - Prototypes
 - Just paste the link URL into the block
+- Embeds update in real time as you edit your work
 
 ### 👉  `Getting Started`
 - Clone this repo into your WordPress plugin Repository
