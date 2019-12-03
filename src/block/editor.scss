@@ -5,11 +5,25 @@
  * which makes it higher in priority.
  */
 
-.wp-block-cgb-block-gutenberg-figma-embed  {
-  background: $green;
-  border: 0.2rem solid $black;
-  color: $black;
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem;
+
+.wp-block-cgb-block-figma-embed-block {
+
+	.logo {
+		width: 24px;
+		height: 24px;
+		margin-right: 10px;
+	}
+
+  .components-base-control {
+    width: 100%;
+  }
+
+  .components-base-control__label {
+    text-align: left;
+	}
+
+	iframe {
+		pointer-events: none;
+	}
+
 }
