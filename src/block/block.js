@@ -45,7 +45,6 @@ registerBlockType( 'cgb/block-figma-embed-block', {
 		};
 
 		const handleEditModeChange = () => {
-			console.log( 'change mode' );
 			setEditMode( state => ! state );
 		};
 
@@ -62,7 +61,7 @@ registerBlockType( 'cgb/block-figma-embed-block', {
 		return (
 			<Fragment>
 				{ toolbar }
-				<View url={ url } />
+				<View url={ url } className={ className } />
 			</Fragment>
 		);
 	},

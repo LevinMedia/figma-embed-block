@@ -18,7 +18,7 @@ export const Edit = ( props ) => {
 	return (
 		<div className={ className }>
 			<Placeholder
-				icon={ <FigmaIcon className="figma-embed:placeholder-logo" /> }
+				icon={ <FigmaIcon className="logo" /> }
 				label={ __( 'Figma Embed' ) }
 				instructions={ __( 'Embed a figma frame into your post or page' ) }
 			>

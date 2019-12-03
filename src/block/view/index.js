@@ -5,7 +5,6 @@ export const View = ( props ) => {
 	return (
 		<div className={ className }>
 			<iframe
-				style={ { border: 'none', pointerEvents: 'none' } }
 				width="800"
 				height="450"
 				src={ embedURL }
