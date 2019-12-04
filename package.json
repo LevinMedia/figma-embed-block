@@ -8,6 +8,10 @@
     "eject": "cgb-scripts eject"
   },
   "dependencies": {
+    "final-form": "^4.18.6",
+    "react-final-form": "^6.3.3"
+	},
+	"devDependencies": {
     "cgb-scripts": "1.18.1"
-  }
+	}
 }
