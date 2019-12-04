@@ -11,7 +11,7 @@ export const Edit = ( props ) => {
 		const messages = {};
 
 		if ( ! /^https:\/\/www.figma.com\/file\/[^\/]+\/[^\/]+/.test( newURL ) ) {
-			messages.url = __( 'Please enter a URL formatted like "https://www.figma.com/file/xxx/xxx"' );
+			messages.url = __( 'Please enter a valid link URL' );
 		}
 
 		return messages;
@@ -24,7 +24,7 @@ export const Edit = ( props ) => {
 			<Placeholder
 				icon={ <FigmaIcon className="logo" /> }
 				label={ __( 'Figma' ) }
-				instructions={ __( 'Embed a Figma frame into your post or page.' ) }
+				instructions={ __( 'Embed a frame, page or prototype.' ) }
 			>
 				<Form
 					onSubmit={ handleSubmit }
