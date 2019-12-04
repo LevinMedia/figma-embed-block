@@ -1,7 +1,6 @@
 import { Form, Field } from 'react-final-form';
 
 const { __ } = wp.i18n;
-const { useState } = wp.element;
 const { Placeholder, TextControl, Button } = wp.components;
 import { FigmaIcon } from '../icons';
 

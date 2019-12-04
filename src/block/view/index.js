@@ -5,8 +5,7 @@ export const View = ( props ) => {
 	return (
 		<div className={ `${ className } is-${ aspectRatio }` }>
 			<iframe
-				width="800"
-				height="450"
+				key={ aspectRatio } /* force creation of a new iframe to force figma to update its layout */
 				src={ embedURL }
 				allowFullScreen
 				title="A figma file" /* TODO: figure out something more accessible */
