@@ -10,7 +10,7 @@ export const Edit = ( props ) => {
 	const validate = ( { url: newURL } ) => {
 		const messages = {};
 
-		if ( ! /^https:\/\/www.figma.com\/file\/[^\/]+\/[^\/]+/.test( newURL ) ) {
+		if ( ! /^https:\/\/www.figma.com\/(file|proto)\/[^\/]+\/[^\/]+/.test( newURL ) ) {
 			messages.url = __( 'Please enter a valid link URL' );
 		}
 
