@@ -23,7 +23,7 @@ const defaultAspectRatio = 'landscape';
 registerBlockType( 'cgb/block-figma-embed-block', {
 	icon: <FigmaIcon />,
 	title: __( 'Figma' ),
-	description: __( 'Embed a Figma frame into your post or page.' ),
+	description: __( 'Embed a frame, page or prototype.' ),
 	category: 'embed',
 	keywords: [
 		__( 'Figma' ),
