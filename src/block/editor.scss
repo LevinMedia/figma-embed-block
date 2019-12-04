@@ -26,4 +26,14 @@
 		pointer-events: none;
 	}
 
+	&-sidebar {
+		margin-top: 16px;
+
+		hr {
+			margin: 16px -16px;
+			border: none;
+			border-top: 1px solid #e2e4e7;
+		}
+	}
+
 }
