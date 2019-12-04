@@ -13,9 +13,9 @@ export const PluginSidebar = ( props ) => {
 					help={ __( 'Choose the aspect ratio best suited for your frame.' ) }
 					selected={ aspectRatio }
 					options={ [
-						{ label: 'Landscape', value: 'landscape' },
-						{ label: 'Portrait', value: 'portrait' },
-						{ label: 'Square', value: 'square' },
+						{ label: __( 'Landscape' ), value: 'landscape' },
+						{ label: __( 'Portrait' ), value: 'portrait' },
+						{ label: __( 'Square' ), value: 'square' },
 					] }
 					onChange={ ( newAspectRatio ) => onAspectRatioChange( newAspectRatio ) }
 				/>
