@@ -59,8 +59,8 @@ registerBlockType( 'cgb/block-figma-embed-block', {
 			setEditMode( state => ! state );
 		};
 
-		const toolbar = <PluginToolbar className={ `${ className }-toolbar` } isEditMode={ isEditMode } onEditModeToggle={ handleEditModeToggle } />;
-		const sidebar = <PluginSidebar className={ `${ className }-sidebar` } aspectRatio={ aspectRatio } onAspectRatioChange={ handleAspectRatioChange } />;
+		const toolbar = <PluginToolbar isEditMode={ isEditMode } onEditModeToggle={ handleEditModeToggle } />;
+		const sidebar = <PluginSidebar aspectRatio={ aspectRatio } onAspectRatioChange={ handleAspectRatioChange } />;
 
 		if ( isEditMode || ! url ) {
 			return (
