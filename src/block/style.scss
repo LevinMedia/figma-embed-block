@@ -20,13 +20,15 @@
 		padding-top: calc(2/3 * 100%);
 	}
 
+
+	&.is-portrait {
+		width: 100%;
+		padding-top: calc(3/2 * 100%);
+	}
+
 	&.is-square {
 		width: 100%;
 		padding-top: 100%;
 	}
 
 }
-
-// square is 1:1
-// landscape is 3:2
-// and portrait is 2:3
