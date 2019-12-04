@@ -5,7 +5,7 @@ export const View = ( props ) => {
 	return (
 		/* this extra wrapper div gets max-width set */
 		<div className={ className }>
-			<div className={ `figma-embed-block figma-embed-block--${ aspectRatio }` }>
+			<div className={ `figma-embed-block figma-embed-block--aspect-${ aspectRatio }` }>
 				<iframe
 					className="figma-embed-block__embed"
 					key={ aspectRatio } /* force creation of a new iframe to force figma to update its layout */
