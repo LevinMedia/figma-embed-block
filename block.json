@@ -1,0 +1,7 @@
+{
+	"name": "cgb/block-figma-embed-block",
+	"title": "Figma Embed",
+	"editorScript": "dist/blocks.build.js",
+	"editorStyle": "dist/blocks.editor.build.css",
+	"style": "dist/blocks.style.build.css"
+}
