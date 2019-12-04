@@ -1,9 +1,9 @@
 
 export const View = ( props ) => {
-	const { className, url } = props;
+	const { className, url, aspectRatio } = props;
 	const embedURL = `https://www.figma.com/embed?embed_host=share&url=${ encodeURIComponent( url ) }`;
 	return (
-		<div className={ className }>
+		<div className={ `${ className } is-${ aspectRatio }` }>
 			<iframe
 				width="800"
 				height="450"
