@@ -1,5 +1,3 @@
-## About
-
 ### 👉  `Embed your Figma creations in WordPress`
 - Frames 
 - Pages
@@ -10,8 +8,6 @@
 ### 👉  `Getting Started`
 - Clone this repo into your WordPress plugin Repository
 - Activate the `gutenberg-figma-embed` plugin
-
-## Contributing
 
 ### 👉  `npm start`
 - Complete the steps in "Getting Started"
