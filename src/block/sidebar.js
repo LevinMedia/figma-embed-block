@@ -3,10 +3,10 @@ const { InspectorControls } = wp.editor;
 const { RadioControl } = wp.components;
 
 export const PluginSidebar = ( props ) => {
-	const { className, aspectRatio, onAspectRatioChange } = props;
+	const { aspectRatio, onAspectRatioChange } = props;
 	return (
 		<InspectorControls>
-			<div className={ className }>
+			<div className="wp-block-cgb-block-figma-embed-block-sidebar">
 				<hr />
 				<RadioControl
 					label={ __( 'Aspect Ratio' ) }

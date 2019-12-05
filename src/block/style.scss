@@ -4,32 +4,31 @@
  * CSS for both Frontend+Backend.
  */
 
-.wp-block-cgb-block-figma-embed-block {
+.figma-embed-block {
 	position: relative;
 
-	iframe {
+	&--aspect-landscape {
+		width: 100%;
+		padding-top: calc(2/3 * 100%);
+	}
+
+	&--aspect-portrait {
+		width: 100%;
+		padding-top: calc(3/2 * 100%);
+	}
+
+	&--aspect-square {
+		width: 100%;
+		padding-top: 100%;
+	}
+
+	&__embed {
 		border: none;
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-	}
-
-	&.is-landscape {
-		width: 100%;
-		padding-top: calc(2/3 * 100%);
-	}
-
-
-	&.is-portrait {
-		width: 100%;
-		padding-top: calc(3/2 * 100%);
-	}
-
-	&.is-square {
-		width: 100%;
-		padding-top: 100%;
 	}
 
 }
