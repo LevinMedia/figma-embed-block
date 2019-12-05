@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gutenberg Figma Embed
  * Plugin URI: https://github.com/LevinMedia/gutenberg-figma-embed
- * Description: A Gutenberg block to embed Figma frames, pages and prototypes on your WordPress site.
+ * Description: A Gutenberg block to embed Figma frames, pages or prototypes on your WordPress site.
  * Author: levinmedia & jameslnewell
  * Author URI: https://github.com/LevinMedia/gutenberg-figma-embed
  * Version: 1.0.0
