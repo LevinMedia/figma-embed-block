@@ -1,6 +1,6 @@
 {
 	"name": "cgb/block-figma-embed-block",
-	"title": "Figma Embed",
+	"title": "Figma Embed Block",
 	"category": "embed",
 	"description": "Embed a Figma frame, page or prototype.",
 	"keywords": [ "Figma", "design", "image" ],
